@@ -21,7 +21,8 @@ public class CameraMover : MonoBehaviour
         var height = camera.pixelHeight;
         var width = camera.pixelWidth;
 
-        // mousePosition = 滑鼠在畫面上的位置。EX 1920*1080的相機大小的話，mousePosition只會回傳 (0,0)~(1920,1080);
+        // mousePosition = 滑鼠在畫面上的位置。
+        // EX: 1920*1080的相機大小的話，mousePosition只會回傳 (0,0)~(1920,1080);
         var mousePos = Input.mousePosition;
 
 
